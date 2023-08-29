@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(240, 209, 209);
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;          
+}
+h1{
+    text-align: center;
+}
+table {
+    width: 400px;
+    
+  }
+  th {
+    text-align: center;
+    background-color: rgb(192, 21, 21);
+    color: white;
+  }
+  table, th, td {
+    border: 1px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  th, td{
+    padding: 10px;
+  }
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
+  tr:nth-child(odd) {
+  background-color: #bbb;
+  }
+ #row {
+  display: flex;
+  flex-direction: row;
+
+
+ }
+ #kalvium img {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#a {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: calc(20% + 1px);
+}
+#student{
+  color: red;
+  font-weight: bolder;
+  padding-right: 2%;
+  position: absolute;
+  top: 10px;
+  right: calc(9% + 75px);
+}
+#course{
+  color: red;
+  font-weight: bolder;
+  padding-right: 2%;
+  position: absolute;
+  top: 10px;
+  right: calc(2% + 75px);
+}
